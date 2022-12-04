@@ -1,0 +1,373 @@
+@font-face {
+    font-family: Sahel;
+    src: url(/others/dashboard/fonts/Sahel.woff);
+}
+
+.footer-icons {
+    font-size: 20px !important;
+    color: gray !important;
+    background-color: #e6e6e6;
+    padding: 15px 15px 15px 15px;
+    transition: all 0.5s ease-out;
+    border-radius: 50px;
+}
+
+.fa-telegram:hover {
+    background-color: #0088cc;
+    transition: all 0.5s ease-out;
+    color: white !important;
+}
+
+.fa-instagram:hover {
+    background-color: #dd2a7b !important;
+    color: white !important;
+    transition: all 0.5s ease-out;
+}
+
+.fa-whatsapp:hover {
+    background-color: #128c7e !important;
+    color: white !important;
+    transition: all 0.5s ease-out;
+}
+
+.fa-facebook:hover {
+    background-color: #3b5998 !important;
+    color: white !important;
+    transition: all 0.5s ease-out;
+}
+
+.fa-twitter:hover {
+    background-color: #00acee !important;
+    color: white !important;
+    transition: all 0.5s ease-out;
+}
+
+.error-text {
+    color: #721c24;
+    padding: 8px 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: vazir;
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    margin-bottom: 10px;
+    display: none;
+}
+
+@font-face {
+    font-family: vazir;
+    src: url(/others/dashboard/fonts/Vazir.woff);
+}
+
+@font-face {
+    font-family: samim;
+    src: url(/others/dashboard/fonts/samim.woff);
+}
+
+body {
+    direction: rtl !important;
+    background: #f6f9fe !important;
+}
+
+.swal-title,
+.swal-text,
+.swal-button {
+    font-family: sahel !important;
+}
+
+.fixed-top {
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 5px 0;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    background-image: linear-gradient(to right, #182848, #4b6cb7);
+}
+
+.nav-link {
+    color: white !important;
+    margin-right: 15px !important;
+    transition: all 0.5s ease-out;
+}
+
+.id {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #FF8BFF !important;
+    transition: all 0.5s ease-out;
+    transform: scale(1.09);
+}
+
+#header {
+    font-family: vazir;
+    top: 0px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to right, #6ee7b7, #3b82f6, #9333ea);
+}
+
+.logo {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+h1 {
+    text-align: center;
+    font-family: Sahel !important;
+    font-weight: bold;
+}
+
+h5 {
+    font-family: Sahel !important;
+    border: red 1px solid;
+    border-radius: 5px;
+    padding: 15px 15px 15px 15px;
+    width: 350px;
+    background-color: #FFB7FF;
+    color: red !important;
+}
+
+section {
+    margin-top: 100px;
+    text-align: right;
+}
+
+section .container {
+    border-radius: 5px;
+    padding: 20px 30px 30px 30px;
+}
+
+.fa-star {
+    color: red;
+    animation: i 0.5s infinite alternate;
+}
+
+@keyframes i {
+    from {
+        opacity: 0;
+    }
+}
+
+.form-floating label,
+input {
+    font-family: sahel !important;
+}
+
+input {
+    height: 60px;
+}
+
+textarea {
+    font-family: sahel !important;
+    height: 150px;
+}
+
+.form-btn {
+    font-family: sahel !important;
+    border-radius: 25px !important;
+    text-align: center !important;
+    transition: all 0.5s ease-out;
+}
+
+.form-btn:hover {
+    transition: all 0.5s ease-out !important;
+    background-color: navy !important;
+    transform: scale(1.09) !important;
+}
+
+#orderform {
+    margin-top: -100px !important;
+}
+
+#editdata {
+    margin-top: -200px !important;
+}
+
+.name {
+    font-family: Vazir !important;
+    color: red;
+}
+
+.date {
+    font-family: Sahel !important;
+    color: navy;
+    border-radius: 25px;
+    padding: 5px 5px 5px 5px;
+}
+
+.desc {
+    font-family: Vazir !important;
+    font-size: 20px;
+}
+
+.desc2 {
+    font-family: Vazir !important;
+    font-size: 15px;
+}
+
+.intro {
+    color: gray;
+    font-size: 15px;
+    font-family: Vazir !important;
+}
+
+.cont {
+    background: #F4F4F4;
+}
+
+.cont {
+    background: #F4F4F4;
+}
+
+#orders {
+    margin-top: -250px !important;
+}
+
+#myprofile {
+    margin-top: 100px !important;
+}
+
+#changepass {
+    margin-top: -350px !important;
+}
+
+#orderform,
+#request,
+#editdata,
+#orders,
+#changepass,
+#myprofile {
+    background: white !important;
+}
+
+#orderform,
+#request,
+#editdata,
+#orders,
+#changepass {
+    margin-top: 50px !important;
+}
+
+.btn-outline-danger {
+    font-family: sahel !important;
+}
+
+.phone,
+.email {
+    direction: ltr !important;
+}
+
+.status {
+    font-family: vazir;
+}
+
+.order-email {
+    font-family: sahel !important;
+    color: #BA009B;
+}
+
+.btn-outline-success {
+    cursor: default !important;
+}
+
+.btn {
+    font-family: sahel !important;
+}
+
+#section5 {
+    width: 100% !important;
+    background: white;
+}
+
+.footer-title {
+    font-family: vazir !important;
+    text-align: right !important;
+    font-size: 40px;
+    color: red;
+}
+
+.support {
+    color: gray;
+    font-family: sahel !important;
+    direction: rtl !important;
+    float: right !important;
+    text-align: right !important;
+}
+
+.phone {
+    float: right !important;
+    color: gray;
+    text-align: right !important;
+    direction: ltr !important;
+}
+
+.row1 .phone {
+    font-family: vazir !important;
+    font-weight: bold !important;
+}
+
+.scrolltotop {
+    font-size: 20px;
+    border-radius: 15px;
+    border: 1px solid #dadada;
+    padding: 10px 10px 10px 10px;
+    font-family: vazir !important;
+    color: gray !important;
+    transition: all 0.5s ease-out;
+    text-align: center !important;
+    cursor: pointer;
+}
+
+.scrolltotop:hover {
+    transition: all 0.5s ease-out;
+    border: 1px solid navy;
+    color: navy !important;
+}
+
+.enamad-logo {
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    cursor: pointer !important;
+    width: 120px !important;
+    float: right !important;
+    height: 120px !important;
+}
+
+.btn-primary {
+    font-family: Sahel;
+}
+
+#submitcomments {
+    background: white !important;
+}
+
+.emailform {
+    float: right;
+    text-align: right;
+}
+
+label {
+    font-family: Vazir;
+    font-size: 15px;
+}
+
+.email {
+    font-family: Vazir;
+    width: 350px !important;
+    height: 50px !important;
+}
+
+.sabte {
+    font-family: vazir;
+    width: 90px !important;
+    height: 50px !important;
+}
+
+.copyright {
+    color: gray;
+    font-family: Vazir;
+    text-align: center !important;
+    font-size: 15px !important;
+    margin-bottom: 15px !important;
+}
