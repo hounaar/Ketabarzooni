@@ -1,0 +1,262 @@
+@font-face {
+    font-family: vazir;
+    src: url(/others/insert_comments/fonts/Sahel.woff);
+}
+
+@font-face {
+    font-family: sahel;
+    src: url(/others/insert_comments/fonts/Vazir.woff);
+}
+
+@font-face {
+    font-family: samim;
+    src: url(/others/insert_comments/fonts/Samim.woff);
+}
+
+body {
+    direction: rtl !important;
+    background: #fffbfb !important;
+}
+
+.swal-title,
+.swal-text,
+.swal-button {
+    font-family: sahel !important;
+}
+
+.btn-primary {
+    font-family: Sahel !important;
+}
+
+.navbar {
+    z-index: 997;
+    height: 120px;
+    transition: all 0.5s;
+    background-color: #750000;
+    font-family: sahel !important;
+}
+
+.navbar-brand {
+    font-family: samim;
+    font-weight: bold;
+    font-style: italic;
+    color: red !important;
+    padding: 15px 15px 15px 15px;
+}
+
+.fixed-top {
+    height: 90px;
+    z-index: 997;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    transition: all 0.5s;
+    background-color: #750000;
+}
+
+.btn-warning {
+    border-radius: 25px !important;
+    margin-top: 2px !important;
+}
+
+.nav-link {
+    color: white !important;
+    transition: all 0.5s ease-out;
+}
+
+.navbar-toggler {
+    background-color: yellow !important;
+}
+
+#navbarResponsive {
+    background-color: #750000;
+    text-align: center;
+}
+
+.nav-link:hover {
+    color: yellow !important;
+    transition: all 0.5s ease-out;
+    transform: scale(1.09);
+}
+
+h1 {
+    font-family: Sahel !important;
+    font-weight: bold;
+    text-align: center;
+}
+
+h5 {
+    font-family: Sahel !important;
+    border: red 1px solid;
+    border-radius: 5px;
+    padding: 15px 15px 15px 15px;
+    width: 350px;
+    background-color: #FFB7FF;
+    color: red !important;
+}
+
+section {
+    margin-top: 100px;
+    text-align: right;
+}
+
+section .container {
+    border-radius: 5px;
+    padding: 20px 30px 30px 30px;
+}
+
+.fa-star {
+    color: red;
+    animation: i 0.5s infinite alternate;
+}
+
+@keyframes i {
+    from {
+        opacity: 0;
+    }
+}
+
+.form-floating label,
+input {
+    font-family: sahel !important;
+}
+
+input {
+    height: 60px;
+}
+
+textarea {
+    font-family: sahel !important;
+    height: 150px;
+}
+
+#section5 {
+    width: 100% !important;
+    background: white;
+}
+
+.footer-title {
+    font-family: vazir !important;
+    text-align: right !important;
+    font-size: 40px;
+    color: red;
+}
+
+.support {
+    color: gray;
+    font-family: sahel !important;
+    direction: rtl !important;
+    float: right !important;
+    text-align: right !important;
+}
+
+.phone {
+    float: right !important;
+    color: gray;
+    text-align: right !important;
+    direction: ltr !important;
+}
+
+.row1 .phone {
+    font-family: vazir !important;
+    font-weight: bold !important;
+}
+
+.scrolltotop {
+    font-size: 20px;
+    border-radius: 15px;
+    border: 1px solid #dadada;
+    padding: 10px 10px 10px 10px;
+    font-family: vazir !important;
+    color: gray !important;
+    transition: all 0.5s ease-out;
+    text-align: center !important;
+    cursor: pointer;
+}
+
+.scrolltotop:hover {
+    transition: all 0.5s ease-out;
+    border: 1px solid #750000;
+    color: #750000 !important;
+}
+
+.enamad-logo {
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    cursor: pointer !important;
+    width: 120px !important;
+    float: right !important;
+    height: 120px !important;
+}
+
+#submitcomments {
+    background: white !important;
+}
+
+.footer-icons {
+    font-size: 20px !important;
+    color: gray !important;
+    background-color: #e6e6e6;
+    padding: 15px 15px 15px 15px;
+    transition: all 0.5s ease-out;
+    border-radius: 50px;
+}
+
+.fa-telegram:hover {
+    background-color: #0088cc;
+    transition: all 0.5s ease-out;
+    color: white !important;
+}
+
+.fa-instagram:hover {
+    background-color: #dd2a7b !important;
+    color: white !important;
+    transition: all 0.5s ease-out;
+}
+
+.fa-whatsapp:hover {
+    background-color: #128c7e !important;
+    color: white !important;
+    transition: all 0.5s ease-out;
+}
+
+.fa-facebook:hover {
+    background-color: #3b5998 !important;
+    color: white !important;
+    transition: all 0.5s ease-out;
+}
+
+.fa-twitter:hover {
+    background-color: #00acee !important;
+    color: white !important;
+    transition: all 0.5s ease-out;
+}
+
+.emailform {
+    float: right;
+    text-align: right;
+}
+
+label {
+    font-family: Vazir;
+    font-size: 15px;
+}
+
+.email {
+    font-family: Vazir;
+    width: 350px !important;
+    height: 50px !important;
+}
+
+.sabte {
+    font-family: Vazir;
+    width: 90px !important;
+    height: 50px !important;
+}
+
+.copyright {
+    color: gray;
+    font-family: Vazir;
+    text-align: center !important;
+    font-size: 15px !important;
+    margin-bottom: 15px !important;
+}
